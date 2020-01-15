@@ -7,7 +7,7 @@ var button = document.querySelector("#generate-name-btn");
 console.log("Button that generates a name", button);
 
 button.onclick = function () {
-	//this code run when the button is clicked
+	//this code runs when the button is clicked
 	var h2 = document.querySelector("h2");
 
 	// get a random number
