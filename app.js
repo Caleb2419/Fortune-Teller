@@ -18,7 +18,7 @@ button.onclick = function () {
 	//INSERT A NEW ELEMENT
 	//1. create the new element
 	var newListItem = document.createElement("li");
-	newListItem.innerHTML = names[n];
+	newListItem.innerHTML = names(n);
 
 	//2. put the new child element into parent element(query it)
   var historyList = document.querySelector("#history-list");
