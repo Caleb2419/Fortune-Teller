@@ -13,7 +13,7 @@ button.onclick = function () {
 	// get a random number
 	// use the random number as the index to pick a random name
 	var n = Math.floor(Math.random() * names.length);
-	h2.innerHTML = names(n);
+	h2.innerHTML = names[n];
 
 	//INSERT A NEW ELEMENT
 	//1. create the new element
