@@ -28,7 +28,7 @@ button.onclick = function () {
 };
 
 
-fetch("https://api.myjson.com//bins/imxqu").then(function (response) {
+fetch("https://api.myjson.com/bins/lr20e").then(function (response) {
 	response.json().then(function (namesJSON) {
 		//data now ready: save into our global variable to be used
 		names = namesJSON;
