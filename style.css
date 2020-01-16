@@ -1,0 +1,23 @@
+h1, h2 {
+	font-family: 'Corben', Georgia, Times, serif;
+	position: center;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+
+p, li, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+button {
+font-family: 'Corben', Georgia, Times, serif;
+position: center;
+box-shadow: 0 0 1em 1em #ccc;
+}
+
+body { 
+    background: url(/img/cream_dust.png) repeat 0 0;
+}
