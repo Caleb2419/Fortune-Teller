@@ -1,23 +1,67 @@
-h1, h2 {
-	font-family: 'Corben', Georgia, Times, serif;
-	position: center;
-	text-shadow: 1px 1px 1px #ccc;
-}
-
-h3, h4, h5, h6 {
-    font-family: 'Corben', Georgia, Times, serif;
-}
-
-p, li, div {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
-}
-
-button {
-font-family: 'Corben', Georgia, Times, serif;
-position: center;
-box-shadow: 0 0 1em 1em #ccc;
+html {
+	height: 100%;
+	width: auto;
 }
 
 body { 
-    background: url(/img/cream_dust.png) repeat 0 0;
+	height: 100%;
+	width: auto;
+	background-image: url("space.jpg");
+}
+
+h1 {
+	font-family: 'Corben', Georgia, Times, serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+h2, h3, h4, h5, h6, p, li {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+}
+
+.main-div {
+	height: 100%;
+	width: 66%;
+	margin: 0 auto;
+	background-image: url("cream_dust_transparent.png")
+}
+
+.gen-name-button {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	width: 110px;
+	height: 25px;
+	border-radius: 2px;
+	border: 2px solid #3361C3;
+  transition-duration: 0.4s;
+}
+
+.gen-name-button:hover {
+	background-color: #3361C3;
+}
+
+.button-container {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66%;
+	margin: 0 auto;
+}
+
+.name-container {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66%;
+	margin: 0 auto;
+}
+
+.history-list-container {
+  height: 5%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 66%;
+	margin: 0 auto;
 }

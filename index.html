@@ -1,14 +1,22 @@
 <DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben:bold|Nobile" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben|PT+Sans" >
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>RANDOM NAME GENERATOR</h1>
-    <h2 id="random-name"></h2>
-    <button id="generate-name-btn">Generate Name</button>
-    <ol id="history-list"></ol>
+    <div class="main-div">
+      <h1>RANDOM NAME GENERATOR</h1>
+      <div class="button-container">
+        <button id="generate-name-btn" class="gen-name-button">Generate Name</button>
+      </div>
+      <div class="name-container">
+        <h2 id="random-name"></h2>
+      </div>
+      <div class="history-list-container">
+        <ol id="history-list"></ol>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
